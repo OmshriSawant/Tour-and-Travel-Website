@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour and travel agency website design tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <img src="images/logo.png"
+     width="150"
+     height="100">
+    
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form method="post" action="index.php">
+        <h3>login</h3>
+        Email : <input type="email" class="box" name="email" placeholder="enter your email">
+        Password : <input type="password" class="box" name="password" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="pass.html">click here</a></p>
+        <p>don't have and account? <a href="reg.html">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/tour.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid_2.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/2.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Pune.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Rajmachi trek  </h3>
+                <p>At a distance of 15 km from Lonavala, 15 km from Khandala, 82 km from Mumbai & 82 km from Pune, Rajmachi Fort is an ancient fort situated in Pune district of Maharashtra. It is one of the popular tourist places near Mumbai for trekking and also among the best places to visit in Lonavala. This famous fort in Maharashtra lies at an altitude of 2710 feet. This is a protected monument and is among the most popular attraction not to miss.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹910.00 <span>₹1,400.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Nashik.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Kalsubai trek </h3>
+                <p>At a distance of 12 km from Bhandardara, 165 km from Mumbai & 174 km from Pune, Kalsubai Peak is a mountain peak in the Ahmednagar district of Maharashtra. This is one of the popular places of trekking in Maharashtra, and among the must include places in Bhandardara tour packages.</</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹499.00 <span>₹850.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Mahabaleshwar.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Harishchadragad fort, Igatpuri: </h3>
+                <p>At a distance of 8 km from Khireshwar, 15 km from Malshej Ghat, 50 km from Bhandardara, 166 km from Pune & 218 km from Mumbai, Harishchandragad is a historical hill fort situated in Ahmednagar district of Maharashtra. It is one of the popular places of heritage in Maharashtra, and among the famous places to visit</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹899.00 <span>₹1,589.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Malvan.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Trek to Garbett Point, Matheran </h3>
+                <p>At a distance of 17 km from Matheran and 8 km from Diksal, Garbett Point or Garbut Point is located near Matheran with grand view of the plateau below. The huge plateau gives a view to various waterfalls on the neighboring mountains. This place is also one of the top things to do in Matheran hill station.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹6,999.00 <span>₹1,300.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Matheran.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> A trek to Ratangad </h3>
+                <p>At a distance of 6 km from Ratanwadi, 23 km from Bhandardara, 183 km from Pune & 197 km from Mumbai, Ratangad is an ancient hill fort situated at Ratanwadi village in Ahmednagar district of Maharashtra. It is one of the best forts in Maharashtra and an ideal place for trekking around Mumbai & Pune. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹980.00 <span>₹1,500.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Karjat.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Lohagad Fort(Near Lonavla) </h3>
+                <p>At a distance of 11 km from Lonavala, 66 km from Pune & 114 km from Mumbai, the Lohagad Fort (Iron Fort) is a historical fort situated along the Sahyadri hills in the Lonavala region of Maharashtra. It is one of the best tourist places to visit in Lonavala and also one of the popular heritage in Maharashtra.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹680.00 <span>₹1,080.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Accommodation</h3>
+            <p>Accommodation is provided to the members by Matrix Hostels at a nominal cost. While the member can avail all the modern facilities, there is a home like ambience in the Hostel. We ensures the best quality food for the member to satisfy the taste buds. Hygiene maintenance in all respects has always been our commitment</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>While on an expedition, the hosteler can feel absolutely safe, thanks to the Expedition Guide. The Trekism provides excellent and expert Expedition Guide for all its adventure programmes. The Expedition Guide, as the name suggests, will guide the members through their adventure journey and be always available for any kind of help/emergency.</p>
+       
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Travel Arrangements</h3>
+            <p>The members who are desirous of participating in any of our programmes, will initially be asked to make travel arrangements to a particular spot, like Base Camp, etc., where all the participants would gather. From then onward, the our nominated Team Leader (Captain or Expedition Guide) will take over and ensure smooth conduct of the particular programme.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Special Activities are planned and conducted by Matrix at regular intervals. Members keen on participating in such special activities and also keen on bringing their family and friends for such programmes need to contact the respective Hostel. The potential participants can also visit the Our portal for any further information.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/G-01.jpeg" alt="">
+            <div class="content">
+                <h3>Sinhagad Fort</h3>
+                <p></p>
+                <a href="page1.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-02.jpeg" alt="">
+            <div class="content">
+                <h3>Pratapgad Fort</h3>
+                <p></p>
+                <a href="page2.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-03.jpeg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-04.jpeg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-05.jpeg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-06.jpeg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-07.jpeg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-08.jpeg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-09.jpeg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p></p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Sarikha Chavan</h3>
+                    <p>Matheran Is very nice place to visit with family and friends. This is India's First Automobile free hill station. If you are trekking lover then you have to go matheran. Thair are many points to visit like sunset point, Echo point, Monky point And many more. In matheran many hotels, Hostels and home stays but you can go at divadkar hotel. Hotel devadkar is so nice and clean and food is also very tasty u can try vada pav pav bhaji here. U can also enjoy horce riding here at very minimun cost. Enjoy streat food here its very testy.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>Ayush Kotain</h3>
+                    <p>Pune is one rocking place one could think of. I would love to settle down there. Once you stip into Pune you get a feel of being young and spirited. The restaurants, night lounges, live dining places and the hotels are just amazing.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Omshri Sawant</h3>
+                    <p>Malvan is very very nice destination. There having very beautiful beaches also Sindhudurga fort are there. Last few year ago Scuba diving also started at Tarkarli beach. That is great memorandum pleace. There Hotels also great, there food are also great especially non-veg food.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>Aditya Joshi</h3>
+                    <p>The sites, smells, sounds of India amazed me all the time. There was so much to look at and so much to see, the people were so friendly and helpful when you needed something. I want to live there if i could, i miss it so much and wish i was back there every day, i think about Nashik all the time and the amazing time we had. Expecially go to the Godavari river if you go because its immense!!!!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Mumbai</a>
+            <a href="#">Pune</a>
+            <a href="#">Nashik</a>
+            <a href="#">Sindhudurg</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="gallery.html">gallery</a>
+            <a href="rev.html">review</a>
+            <a href="contact.html">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> All rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
